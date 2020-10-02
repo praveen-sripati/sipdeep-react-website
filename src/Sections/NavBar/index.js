@@ -1,5 +1,6 @@
 import React from 'react';
 import Logo from './assets/images/logo.png';
+import Icon from '@material-ui/core/Icon';
 
 export const NavBar = () => {
   return (
@@ -75,6 +76,14 @@ export const NavBar = () => {
               </li> */}
               <li>
                 <a href="#contact">Contact</a>
+              </li>
+              <li>
+                <a href="#cart">
+                  <Icon>shopping_cart</Icon>
+                </a>
+              </li>
+              <li>
+                <a href="#signIn">Sign In</a>
               </li>
             </ul>
           </nav>
