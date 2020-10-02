@@ -30,7 +30,7 @@ export const NavBar = () => {
               <li>
                 <a href="#portfolio">Portfolio</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#pricing">Pricing</a>
               </li>
               <li>
@@ -72,7 +72,7 @@ export const NavBar = () => {
                     <a href="#">Drop Down 5</a>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li>
                 <a href="#contact">Contact</a>
               </li>
