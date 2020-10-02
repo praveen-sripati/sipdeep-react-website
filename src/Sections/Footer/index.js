@@ -5,10 +5,10 @@ export const Footer = () => {
     <div>
       <footer id="footer">
         <div className="container">
-          <h3>Selecao</h3>
+          <h3>SipDeep</h3>
           <p>
-            Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni
-            eligendi fuga maxime saepe commodi placeat.
+            The best way to stay hydrated. Some people claim that alkaline water
+            is better than anything you could get from the tap.
           </p>
           <div className="social-links">
             <a href="#" className="twitter">
@@ -30,12 +30,9 @@ export const Footer = () => {
           <div className="copyright">
             &copy; Copyright{' '}
             <strong>
-              <span>Selecao</span>
+              <span>SipDeep</span>
             </strong>
             . All Rights Reserved
-          </div>
-          <div className="credits">
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
           </div>
         </div>
       </footer>
