@@ -6,7 +6,7 @@ export const Services = () => {
       <section id="services" className="services">
         <div className="container">
           <div className="section-title" data-aos="zoom-out">
-            <h2>Services</h2>
+            <h2>Our Products</h2>
             <p>What we do offer</p>
           </div>
 
@@ -20,7 +20,7 @@ export const Services = () => {
                   ></i>
                 </div>
                 <h4 className="title">
-                  <a href="">Lorem Ipsum</a>
+                  <a href="">Product 1</a>
                 </h4>
                 <p className="description">
                   Voluptatum deleniti atque corrupti quos dolores et quas
@@ -38,7 +38,7 @@ export const Services = () => {
                   <i className="las la-book" style={{ color: '#e9bf06' }}></i>
                 </div>
                 <h4 className="title">
-                  <a href="">Dolor Sitema</a>
+                  <a href="">Product 2</a>
                 </h4>
                 <p className="description">
                   Minim veniam, quis nostrud exercitation ullamco laboris nisi
@@ -54,10 +54,13 @@ export const Services = () => {
                 data-aos-delay="200"
               >
                 <div className="icon">
-                  <i className="las la-file-alt" style={{color:" #3fcdc7"}}></i>
+                  <i
+                    className="las la-file-alt"
+                    style={{ color: ' #3fcdc7' }}
+                  ></i>
                 </div>
                 <h4 className="title">
-                  <a href="">Sed ut perspiciatis</a>
+                  <a href="">Product 3</a>
                 </h4>
                 <p className="description">
                   Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -74,11 +77,11 @@ export const Services = () => {
                 <div className="icon">
                   <i
                     className="las la-tachometer-alt"
-                    style={{color:"#41cf2e"}}
+                    style={{ color: '#41cf2e' }}
                   ></i>
                 </div>
                 <h4 className="title">
-                  <a href="">Magni Dolores</a>
+                  <a href="">Product 4</a>
                 </h4>
                 <p className="description">
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa
@@ -96,11 +99,11 @@ export const Services = () => {
                 <div className="icon">
                   <i
                     className="las la-globe-americas"
-                    style={{color: "#d6ff22"}}
+                    style={{ color: '#d6ff22' }}
                   ></i>
                 </div>
                 <h4 className="title">
-                  <a href="">Nemo Enim</a>
+                  <a href="">Product 5</a>
                 </h4>
                 <p className="description">
                   At vero eos et accusamus et iusto odio dignissimos ducimus qui
@@ -115,10 +118,10 @@ export const Services = () => {
                 data-aos-delay="500"
               >
                 <div className="icon">
-                  <i className="las la-clock" style={{color: "#4680ff"}}></i>
+                  <i className="las la-clock" style={{ color: '#4680ff' }}></i>
                 </div>
                 <h4 className="title">
-                  <a href="">Eiusmod Tempor</a>
+                  <a href="">Product 6</a>
                 </h4>
                 <p className="description">
                   Et harum quidem rerum facilis est et expedita distinctio. Nam
