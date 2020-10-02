@@ -16,19 +16,23 @@ export const Contact = () => {
                 <div className="address">
                   <i className="icofont-google-map"></i>
                   <h4>Location:</h4>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+                  <p>
+                    Flat no.1403, Tower no.2, Dalhia building, tropical lagoon,
+                    Near New Horizon School, Anand Nagar, Ghodbunder road, Thane
+                    (w) 400607.
+                  </p>
                 </div>
 
                 <div className="email">
                   <i className="icofont-envelope"></i>
                   <h4>Email:</h4>
-                  <p>info@example.com</p>
+                  <p>info@sipdeep.com</p>
                 </div>
 
                 <div className="phone">
                   <i className="icofont-phone"></i>
                   <h4>Call:</h4>
-                  <p>+1 5589 55488 55s</p>
+                  <p>+91 9999999999</p>
                 </div>
               </div>
             </div>
