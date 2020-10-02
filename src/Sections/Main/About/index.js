@@ -61,7 +61,7 @@ export const About = () => {
                 manufactured in india, also spare parts are being imported from
                 china and other countries. The technical support is from japan.
               </p>
-              <a href="#" className="btn-learn-more">
+              <a href="#features" className="btn-learn-more">
                 Learn More
               </a>
             </div>
