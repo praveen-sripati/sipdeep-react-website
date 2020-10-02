@@ -1,4 +1,5 @@
 import React from 'react';
+import Logo from './assets/images/logo.png';
 
 export const NavBar = () => {
   return (
@@ -9,8 +10,10 @@ export const NavBar = () => {
       >
         <div className="container d-flex align-items-center">
           <div className="logo mr-auto">
-            <h1 className="text-light">
-              <a href="index.html">Selecao</a>
+            <h1 className="font-pattaya">
+              <a href="index.html">
+                <img src={Logo} alt="Logo" />
+              </a>
             </h1>
           </div>
           <nav className="nav-menu d-none d-lg-block">
