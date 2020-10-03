@@ -17,7 +17,7 @@ export const Carousel = () => {
               <h2 className="animated fadeInDown">
                 Welcome to <span>SipDeep</span>
               </h2>
-              <p>
+              <p className="animated fadeInUp">
                 “M/s. Sipdeep Alkaline India Pvt Ltd.” is incorporated in 2019
                 is a premier bottler of alkaline & antioxident drinking &
                 multiple uses water with highest 10-ph balance and antioxident
