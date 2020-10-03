@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { Carousel, NavBar, Main, Footer } from './Sections';
+import { Carousel, NavBar, Main, Footer, Cart, Login } from './Sections';
 import './index.css';
-import { Cart } from './Sections';
 
 const App = () => {
   return (
@@ -17,6 +16,9 @@ const App = () => {
         </Route>
         <Route exact path="/cart">
           <Cart />
+        </Route>
+        <Route exact path="/login">
+          <Login />
         </Route>
       </Switch>
     </div>
