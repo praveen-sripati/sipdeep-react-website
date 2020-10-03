@@ -1,8 +1,9 @@
 import React from 'react';
 import Logo from './assets/images/logo.png';
 import Icon from '@material-ui/core/Icon';
+import { Link } from 'react-router-dom';
 
-export const NavBar = () => {
+export const NavBar = (color) => {
   return (
     <div>
       <header
@@ -12,15 +13,15 @@ export const NavBar = () => {
         <div className="container d-flex align-items-center">
           <div className="logo mr-auto">
             <h1 className="font-pattaya">
-              <a href="index.html">
+              <Link to="\">
                 <img src={Logo} alt="Logo" />
-              </a>
+              </Link>
             </h1>
           </div>
           <nav className="nav-menu d-none d-lg-block">
             <ul>
               <li className="active">
-                <a href="index.html">Home</a>
+                <Link href="\">Home</Link>
               </li>
               <li>
                 <a href="#about">About</a>
@@ -78,9 +79,9 @@ export const NavBar = () => {
                 <a href="#contact">Contact</a>
               </li>
               <li>
-                <a href="#cart">
+                <Link to="/cart">
                   <Icon>shopping_cart</Icon>
-                </a>
+                </Link>
               </li>
               <li>
                 <a href="#signIn">Sign In</a>
