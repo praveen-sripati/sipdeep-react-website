@@ -31,7 +31,7 @@ export const Cart = () => {
                 </Link>
               </li>
               <li>
-                <a href="#signIn">Sign In</a>
+                <Link to="/login">Sign In</Link>
               </li>
             </ul>
           </nav>
@@ -274,7 +274,7 @@ export const Cart = () => {
 
                   <button
                     type="button"
-                    className="btn btn-primary btn-block waves-effect waves-light"
+                    className="btn btn-color btn-block waves-effect waves-light"
                   >
                     go to checkout
                   </button>

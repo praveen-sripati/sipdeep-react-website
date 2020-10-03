@@ -3,7 +3,7 @@ import Logo from './assets/images/logo.png';
 import Icon from '@material-ui/core/Icon';
 import { Link } from 'react-router-dom';
 
-export const NavBar = (color) => {
+export const NavBar = () => {
   return (
     <div>
       <header
@@ -84,7 +84,7 @@ export const NavBar = (color) => {
                 </Link>
               </li>
               <li>
-                <a href="#signIn">Sign In</a>
+                <Link to="/login">Sign In</Link>
               </li>
             </ul>
           </nav>
