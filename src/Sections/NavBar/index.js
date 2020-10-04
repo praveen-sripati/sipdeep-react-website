@@ -21,7 +21,7 @@ export const NavBar = () => {
           <nav className="nav-menu d-none d-lg-block">
             <ul>
               <li className="active">
-                <Link href="\">Home</Link>
+                <a href="#hero">Home</a>
               </li>
               <li>
                 <a href="#about">About</a>
