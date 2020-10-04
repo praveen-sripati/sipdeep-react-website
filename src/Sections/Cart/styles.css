@@ -1,3 +1,13 @@
 .main-margin-top {
   margin-top: 70px;
 }
+
+.btn-color {
+	color: white;
+	background-color: #ef6603;
+}
+
+.btn-color:hover {
+	color: #f5f5f5;
+	background-color: #d6610e;
+}

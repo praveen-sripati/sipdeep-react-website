@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Logo from './assets/images/logo.png';
 import Icon from '@material-ui/core/Icon';
 import { Link } from 'react-router-dom';
+import { CartProduct } from './components';
 import './styles.css';
 
 export const Cart = () => {
+
   return (
     <div>
       <header
@@ -46,169 +48,14 @@ export const Cart = () => {
                   <h5 className="mb-4">
                     Cart (<span>2</span> items)
                   </h5>
-
-                  <div className="row mb-4">
-                    <div className="col-md-5 col-lg-3 col-xl-3">
-                      <div className="view zoom overlay z-depth-1 rounded mb-3 mb-md-0">
-                        <img
-                          className="img-fluid w-100"
-                          src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/12a.jpg"
-                          alt="Sample"
-                        />
-                        {/* <a href="#!">
-                          <div className="mask waves-effect waves-light">
-                            <img
-                              className="img-fluid w-100"
-                              src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/12.jpg"
-                            />
-                            <div className="mask rgba-black-slight waves-effect waves-light"></div>
-                          </div>
-                        </a> */}
-                      </div>
-                    </div>
-                    <div className="col-md-7 col-lg-9 col-xl-9">
-                      <div>
-                        <div className="d-flex justify-content-between">
-                          <div>
-                            <h5>Blue denim shirt</h5>
-                            <p className="mb-3 text-muted text-uppercase small">
-                              Shirt - blue
-                            </p>
-                            <p className="mb-2 text-muted text-uppercase small">
-                              Color: blue
-                            </p>
-                            <p className="mb-3 text-muted text-uppercase small">
-                              Size: M
-                            </p>
-                          </div>
-                          <div>
-                            <div className="def-number-input number-input safari_only mb-0 w-100">
-                              <div className="form-inline form-group">
-                                <label htmlFor="productQuantity">
-                                  Quantity
-                                </label>
-                                <input
-                                  type="number"
-                                  className="form-control ml-2"
-                                  id="productQuantity"
-                                  aria-describedby="Product Quantity"
-                                  min="1"
-                                  max="5"
-                                />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="d-flex justify-content-between align-items-center">
-                          <div>
-                            <a
-                              href="#!"
-                              type="button"
-                              className="card-link-secondary small text-uppercase mr-3"
-                            >
-                              <i className="fas fa-trash-alt mr-1"></i> Remove
-                              item{' '}
-                            </a>
-                          </div>
-                          <p className="mb-0">
-                            <span>
-                              <strong>$17.99</strong>
-                            </span>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <hr className="mb-4" />
-                  <div className="row mb-4">
-                    <div className="col-md-5 col-lg-3 col-xl-3">
-                      <div className="view zoom overlay z-depth-1 rounded mb-3 mb-md-0">
-                        <img
-                          className="img-fluid w-100"
-                          src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13a.jpg"
-                          alt="Sample"
-                        />
-                        {/* <a href="#!">
-                          <div className="mask waves-effect waves-light">
-                            <img
-                              className="img-fluid w-100"
-                              src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13.jpg"
-                            />
-                            <div className="mask rgba-black-slight waves-effect waves-light"></div>
-                          </div>
-                        </a> */}
-                      </div>
-                    </div>
-                    <div className="col-md-7 col-lg-9 col-xl-9">
-                      <div>
-                        <div className="d-flex justify-content-between">
-                          <div>
-                            <h5>Red hoodie</h5>
-                            <p className="mb-3 text-muted text-uppercase small">
-                              Shirt - red
-                            </p>
-                            <p className="mb-2 text-muted text-uppercase small">
-                              Color: red
-                            </p>
-                            <p className="mb-3 text-muted text-uppercase small">
-                              Size: M
-                            </p>
-                          </div>
-                          <div>
-                            <div className="def-number-input number-input safari_only mb-0 w-100">
-                              <div className="form-inline form-group">
-                                <label htmlFor="productQuantity">
-                                  Quantity
-                                </label>
-                                <input
-                                  type="number"
-                                  className="form-control ml-2"
-                                  id="productQuantity"
-                                  aria-describedby="Product Quantity"
-                                  min="1"
-                                  max="5"
-                                />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="d-flex justify-content-between align-items-center">
-                          <div>
-                            <a
-                              href="#!"
-                              type="button"
-                              className="card-link-secondary small text-uppercase mr-3"
-                            >
-                              <i className="fas fa-trash-alt mr-1"></i> Remove
-                              item{' '}
-                            </a>
-                            <a
-                              href="#!"
-                              type="button"
-                              className="card-link-secondary small text-uppercase"
-                            ></a>
-                          </div>
-                          <p className="mb-0">
-                            <span>
-                              <strong id="summary">$35.99</strong>
-                            </span>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <p className="text-primary mb-0">
-                    <i className="fas fa-info-circle mr-1"></i> Do not delay the
-                    purchase, adding items to your cart does not mean booking
-                    them.
-                  </p>
+                  <CartProduct />
+                  <CartProduct />
                 </div>
               </div>
 
               <div className="mb-3">
                 <div className="pt-4">
                   <h5 className="mb-4">Expected shipping delivery</h5>
-
                   <p className="mb-0"> Thu., 12.03. - Mon., 16.03.</p>
                 </div>
               </div>
@@ -276,7 +123,7 @@ export const Cart = () => {
                     type="button"
                     className="btn btn-color btn-block waves-effect waves-light"
                   >
-                    go to checkout
+                    Checkout
                   </button>
                 </div>
               </div>
