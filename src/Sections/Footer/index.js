@@ -37,7 +37,7 @@ export const Footer = () => {
         </div>
       </footer>
 
-      <a href="#" className="back-to-top">
+      <a href="#hero" className="back-to-top scrollto">
         <i className="ri-arrow-up-line"></i>
       </a>
     </div>
